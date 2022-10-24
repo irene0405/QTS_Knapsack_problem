@@ -1,20 +1,28 @@
-## using QTS solve knapsack problem
+# QTS_Knapsack_problem
 
-### Problem:
-* 有 10 種不同的物品 A~J，每種物品各有10個
-* 背包最大容量 275
+## Knapsack Problem
 
-| Item  | A | B | C | D | E | F | G | H | I | J |
-| ----- |---|---|---|---|---|---|---|---|---|---|
-| Weight| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |10 |
-| Value | 6 | 7 | 8 | 9 |10 |11 |12 |13 |14 |15 |
+##### The knapsack problem is a problem in combinatorial optimization: Given a set of items, each with a weight and a value, determine the number of each item included in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible.
 
+### Problem Definition
 
-已知最佳解為
+* Given
+  * There are ten for each item
+  * The maximum capacity of the knapsack is 275
+  * | Item    | A   | B   | C   | D   | E   | F   | G   | H   | I   | J   |
+    | :-----: |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+    | Weight  | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+    | Value   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  |
 
-Total weight = 275 and value = 620
+* Find
+  * a set of items
 
-有多種取法，例如：A~F 各取10個、G 取 8個、I 取 1個
+* Best known solution
+  * Overall weight equal to 275
+  * Overall value (fitness) equal to 620
+  * | Item    | A   | B   | C   | D   | E   | F   | G   | H   | I   | J   |
+    | :-----: |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+    | #       | 10  | 10  | 10  | 10  | 10  | 10  | 8   | 0   | 1   | 0   |
 
 
 ---
