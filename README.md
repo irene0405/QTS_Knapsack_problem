@@ -30,7 +30,7 @@
 ### Program
 
 
-Statistic.h & Statistic.cpp: 用於統計執行 GA 數回合的結果。 
+Statistic.h & Statistic.cpp: 用於統計執行 QTS 數回合的結果。 
 
 
 ---
@@ -49,14 +49,6 @@ Statistic.h & Statistic.cpp: 用於統計執行 GA 數回合的結果。
 
 
 ---
- 
- 
-### Fitness
-
-
-
----
-
 
 
 ### Argument
